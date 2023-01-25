@@ -21,4 +21,9 @@ sudo ./program_uicc --help
 ```bash
 sudo ./program_uicc --adm 12345678 --imsi 208920100001101 --isdn 00000001 --acc 0001 --key 6874736969202073796d4b2079650a73 --opc 504f20634f6320504f50206363500a4f -spn "OpenCells01" --authenticate --noreadafter
 ```
+or this can be too(sdcore):
+```bash
+sudo ./program_uicc --adm 12345678 --imsi 001010000010769 --isdn 00000001 --acc 0001 --key fec86ba6eb707ed08905757b1bb44b8f --opc C42449363BBAD02B66D16BC975D77CC1 -spn "OpenAirInterface" --authenticate
+```
+
 
